@@ -14,7 +14,7 @@ repo_dir = Path(__file__).parent
 
 # this maps the files in the repo to the commands used to get them working in the os
 DOTFILE_MAP = {
-    ".zshrc": f"ln --symbolic {repo_dir}/.zshrc $HOME/.zshrc",
+    ".zshrc": f"ln -sf {repo_dir}/.zshrc ~/.zshrc",
     "crontab_backup": f"crontab {repo_dir}/crontab_backup",
     "kglobalshortcutsrc": f"cp {repo_dir}/kglobalshortcutsrc ~/.config/kglobalshortcutsrc",
 }
