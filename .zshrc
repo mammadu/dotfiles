@@ -123,3 +123,4 @@ source <(fzf --zsh)
 
 ### docker
 alias docker='sudo docker'
+
