@@ -204,6 +204,18 @@ playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
+[org.chromium.Chromium]
+67B2527D0D1C947A4C8785B72BAA61BF-autofill_card=none,none,Autofill the last used card for the current website
+67B2527D0D1C947A4C8785B72BAA61BF-autofill_identity=none,none,Autofill the last used identity for the current website
+67B2527D0D1C947A4C8785B72BAA61BF-autofill_login=none,none,Autofill the last used login for the current website
+67B2527D0D1C947A4C8785B72BAA61BF-generate_password=none,none,Generate and copy a new random password to the clipboard
+67B2527D0D1C947A4C8785B72BAA61BF-lock_vault=none,none,Lock the vault
+6AC9C24763D361489C5DF079D343EFB0-simulate_action=none,none,Simulate Action Click
+8326AA99764F741E28E6E7543209968A-addSite=none,none,Toggle current site
+8326AA99764F741E28E6E7543209968A-switchEngine=none,none,Theme generation mode
+8326AA99764F741E28E6E7543209968A-toggle=none,none,Toggle extension
+_k_friendly_name=org.chromium.Chromium
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness

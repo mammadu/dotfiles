@@ -61,8 +61,8 @@ ZSH_THEME="robbyrussell"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 HIST_STAMPS="yyyy-mm-dd"
-export HISTSIZE=1000
-export HISTFILESIZE=1000
+export HISTSIZE=10000
+export HISTFILESIZE=10000
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -120,3 +120,6 @@ alias pbpaste='xclip -selection clipboard -o'
 
 ### fzf
 source <(fzf --zsh)
+
+### docker
+alias docker='sudo docker'
