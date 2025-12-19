@@ -122,5 +122,5 @@ alias pbpaste='xclip -selection clipboard -o'
 source <(fzf --zsh)
 
 ### docker
-alias docker='sudo docker'
+# alias docker='sudo docker'
 
