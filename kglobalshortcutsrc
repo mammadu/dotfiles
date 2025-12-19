@@ -205,12 +205,24 @@ previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
 
 [org.chromium.Chromium]
+41595D363DAB49D499F3177F97344946-autofill_card=,none,Autofill the last used card for the current website
+41595D363DAB49D499F3177F97344946-autofill_identity=,none,Autofill the last used identity for the current website
+41595D363DAB49D499F3177F97344946-autofill_login=,none,Autofill the last used login for the current website
+41595D363DAB49D499F3177F97344946-generate_password=,none,Generate and copy a new random password to the clipboard
+41595D363DAB49D499F3177F97344946-lock_vault=,none,Lock the vault
 67B2527D0D1C947A4C8785B72BAA61BF-autofill_card=none,none,Autofill the last used card for the current website
 67B2527D0D1C947A4C8785B72BAA61BF-autofill_identity=none,none,Autofill the last used identity for the current website
 67B2527D0D1C947A4C8785B72BAA61BF-autofill_login=none,none,Autofill the last used login for the current website
 67B2527D0D1C947A4C8785B72BAA61BF-generate_password=none,none,Generate and copy a new random password to the clipboard
 67B2527D0D1C947A4C8785B72BAA61BF-lock_vault=none,none,Lock the vault
+67BFDB98F43918E9AB3738A70E83A7A9-open-dashboard=,none,Open dashboard
+67BFDB98F43918E9AB3738A70E83A7A9-open-dashboard-with-running-scripts=,none,Open dashboard with the current tab's URL used as filter
+67BFDB98F43918E9AB3738A70E83A7A9-open-new-script=,none,Open new script tab
+67BFDB98F43918E9AB3738A70E83A7A9-toggle-enable=,none,Toggle enable state
 6AC9C24763D361489C5DF079D343EFB0-simulate_action=none,none,Simulate Action Click
+724048CDFAB6FDC946FE0E8CBC915C4D-addSite=,none,Toggle current site
+724048CDFAB6FDC946FE0E8CBC915C4D-switchEngine=,none,Theme generation mode
+724048CDFAB6FDC946FE0E8CBC915C4D-toggle=,none,Toggle extension
 8326AA99764F741E28E6E7543209968A-addSite=none,none,Toggle current site
 8326AA99764F741E28E6E7543209968A-switchEngine=none,none,Theme generation mode
 8326AA99764F741E28E6E7543209968A-toggle=none,none,Toggle extension
