@@ -226,6 +226,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 8326AA99764F741E28E6E7543209968A-addSite=none,none,Toggle current site
 8326AA99764F741E28E6E7543209968A-switchEngine=none,none,Theme generation mode
 8326AA99764F741E28E6E7543209968A-toggle=none,none,Toggle extension
+B444B52AA821093250D1BA06E4C84A1F-simulate_action=,none,Simulate Action Click
 _k_friendly_name=org.chromium.Chromium
 
 [org_kde_powerdevil]
