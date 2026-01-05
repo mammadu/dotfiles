@@ -7,6 +7,18 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.google.Chrome]
+0153BB9F8C0DAF01E4AC92789D14CCC4-addSite=none,none,Toggle current site
+0153BB9F8C0DAF01E4AC92789D14CCC4-switchEngine=none,none,Theme generation mode
+0153BB9F8C0DAF01E4AC92789D14CCC4-toggle=none,none,Toggle extension
+30EA4192D47B278D33D10B610D246863-autofill_card=none,none,Autofill the last used card for the current website
+30EA4192D47B278D33D10B610D246863-autofill_identity=none,none,Autofill the last used identity for the current website
+30EA4192D47B278D33D10B610D246863-autofill_login=none,none,Autofill the last used login for the current website
+30EA4192D47B278D33D10B610D246863-generate_password=none,none,Generate and copy a new random password to the clipboard
+30EA4192D47B278D33D10B610D246863-lock_vault=none,none,Lock the vault
+3858696B09FB15D81C72458729E3EA82-simulate_action=none,none,Simulate Action Click
+_k_friendly_name=Google Chrome
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
