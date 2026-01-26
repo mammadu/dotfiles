@@ -1,9 +1,0 @@
-@reboot sleep 30 && echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /home/mammadu/.rclone/logs/logfile && /usr/bin/rclone bisync gdrive:notes /home/mammadu/Documents/notes/ --drive-skip-gdocs --resilient --recover --max-lock 2m --conflict-resolve newer >> /home/mammadu/.rclone/logs/logfile 2>&1
-
-*/5 * * * * echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /home/mammadu/.rclone/logs/logfile && /usr/bin/rclone bisync gdrive:notes /home/mammadu/Documents/notes/ --drive-skip-gdocs --resilient --recover --max-lock 2m --conflict-resolve newer >> /home/mammadu/.rclone/logs/logfile 2>&1
-
-@hourly cp /home/mammadu/.config/kglobalshortcutsrc /home/mammadu/.config/dotfiles
-
-@hourly crontab -l > /home/mammadu/.config/dotfiles/crontab_backup
- 
-@hourly git -C /home/mammadu/.config/dotfiles add . && git -C /home/mammadu/.config/dotfiles commit -m "auto update dotfiles repo" && git -C /home/mammadu/.config/dotfiles push
