@@ -121,6 +121,10 @@ alias pbpaste='xclip -selection clipboard -o'
 ### fzf
 source <(fzf --zsh)
 
+### resetting the network device
+alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
+
+
 ### docker
 # alias docker='sudo docker'
 
