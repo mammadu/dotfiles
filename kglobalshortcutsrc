@@ -1,9 +1,9 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-391f4872-8d63-4376-836f-7ab93361a650=,none,Switch to activity "philly"
-switch-to-activity-663206fa-e78a-4150-aab1-495fad09be11=,none,Switch to activity "pular"
-switch-to-activity-d3be9212-29e5-43e2-89d3-62dc7da6242c=none,none,Switch to activity "Default"
-switch-to-activity-fc6ea877-3785-4d52-ae5c-d9414731ef29=,none,Switch to activity "French"
+switch-to-activity-391f4872-8d63-4376-836f-7ab93361a650=Meta+Ctrl+M,none,Switch to activity "philly"
+switch-to-activity-663206fa-e78a-4150-aab1-495fad09be11=Meta+Ctrl+P,none,Switch to activity "pular"
+switch-to-activity-d3be9212-29e5-43e2-89d3-62dc7da6242c=Meta+Ctrl+D,none,Switch to activity "Default"
+switch-to-activity-fc6ea877-3785-4d52-ae5c-d9414731ef29=Meta+Ctrl+F,none,Switch to activity "French"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
@@ -274,6 +274,7 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 124=none,none,Activate Show Activity Manager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
