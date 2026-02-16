@@ -124,6 +124,8 @@ source <(fzf --zsh)
 ### resetting the network device
 alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
 
+# sourcing the shell configs
+alias reshell='source "${HOME}/.${SHELL##*/}rc"'
 
 ### docker
 # alias docker='sudo docker'
