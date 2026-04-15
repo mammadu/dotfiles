@@ -108,27 +108,31 @@ export EDITOR='nvim'
 
 # custom user additions
 
-## applications
+### asdf
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+### fzf
+source <(fzf --zsh)
 
 ### yay
 # this line skips the clean, diff, and edit menus when updating with yay. It also doesn't exclude any application that can be upgraded
 alias yolo='yay --noconfirm'
 
-### asdf
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
-
 ### xclip
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
-
-### fzf
-source <(fzf --zsh)
 
 ### resetting the network device
 alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
 
 ### sourcing the shell configs
 alias reshell='source "${HOME}/.${SHELL##*/}rc"'
+
+### explainshell
+explain () {
+  curl -Gs "https://www.explainshell.com/explain" --data-urlencode "cmd=$@" | grep -oP '(?<=<pre>).*?(?=</pre>)'
+}
+
 
 ### docker
 # alias docker='sudo docker'
