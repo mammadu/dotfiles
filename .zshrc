@@ -128,12 +128,6 @@ alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
 ### sourcing the shell configs
 alias reshell='source "${HOME}/.${SHELL##*/}rc"'
 
-### explainshell
-explain () {
-  curl -Gs "https://www.explainshell.com/explain" --data-urlencode "cmd=$@" | grep -oP '(?<=<pre>).*?(?=</pre>)'
-}
-
-
 ### docker
 # alias docker='sudo docker'
 
