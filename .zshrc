@@ -124,6 +124,9 @@ alias news='yay --show --news'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
+## resetting monitor connection when it doesn't turn on for some reason
+alias resetmonitor='echo on-digital | sudo tee /sys/class/drm/card1-DP-1/status'
+
 ## resetting the network device
 alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
 
