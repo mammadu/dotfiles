@@ -72,7 +72,7 @@ export HISTFILESIZE=10000
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git asdf)
+plugins=(git mise)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,7 +109,10 @@ export EDITOR='nvim'
 # custom user additions
 
 ## asdf
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+## mise
+eval "$(mise activate zsh)"
 
 ## fzf
 source <(fzf --zsh)
@@ -138,4 +141,3 @@ alias syncnotes='echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /
 
 ### docker
 # alias docker='sudo docker'
-
