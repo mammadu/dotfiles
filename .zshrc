@@ -111,6 +111,9 @@ export EDITOR='nvim'
 ## asdf
 # export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
+## claude
+export PATH="$HOME/.local/bin:$PATH"
+
 ## mise
 eval "$(mise activate zsh)"
 
