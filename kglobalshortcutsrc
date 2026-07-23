@@ -315,3 +315,7 @@ _launch=Ctrl+Shift+Esc\tMeta+Esc
 
 [services][org.kde.spectacle.desktop]
 RectangularRegionScreenShot=Alt+$\tMeta+Shift+Print
+
+[zoom]
+ZMHKey55834574920=Ctrl+Alt+Shift+H,Ctrl+Alt+Shift+H,Show/hide floating meeting controls
+_k_friendly_name=zoom
