@@ -151,4 +151,3 @@ alias reshell='source "${HOME}/.${SHELL##*/}rc"'
 ## resyncing obsidian notes
 alias syncnotes='echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /home/mammadu/.rclone/logs/logfile && /usr/bin/rclone bisync gdrive:notes /home/mammadu/Documents/notes/ --drive-skip-gdocs --resilient --recover --max-lock 2m --conflict-resolve newer >> /home/mammadu/.rclone/logs/logfile 2>&1'
 
-
