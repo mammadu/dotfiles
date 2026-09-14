@@ -79,7 +79,9 @@ export HISTFILESIZE=10000
 # command-not-found: pkgfile
 # tldr: tldr
 # docker: docker
-plugins=(git mise command-not-found sudo colored-man-pages man tldr docker)
+# fast-syntax-highlighting: fast-syntax-highlighting
+# zsh-autosuggestions: zsh-autosuggestions
+plugins=(git mise command-not-found sudo colored-man-pages man tldr docker fast-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -149,5 +151,4 @@ alias reshell='source "${HOME}/.${SHELL##*/}rc"'
 ## resyncing obsidian notes
 alias syncnotes='echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /home/mammadu/.rclone/logs/logfile && /usr/bin/rclone bisync gdrive:notes /home/mammadu/Documents/notes/ --drive-skip-gdocs --resilient --recover --max-lock 2m --conflict-resolve newer >> /home/mammadu/.rclone/logs/logfile 2>&1'
 
-## zsh-syntax-highlighting
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
