@@ -72,7 +72,14 @@ export HISTFILESIZE=10000
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mise)
+
+# some of these plugins may need installation to work
+# plugin: required installion
+# mise: mise
+# command-not-found: pkgfile
+# tldr: tldr
+# docker: docker
+plugins=(git mise command-not-found sudo colored-man-pages man tldr docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -142,5 +149,5 @@ alias reshell='source "${HOME}/.${SHELL##*/}rc"'
 ## resyncing obsidian notes
 alias syncnotes='echo "$(/usr/bin/date --rfc-3339=seconds) bisyncing notes" >> /home/mammadu/.rclone/logs/logfile && /usr/bin/rclone bisync gdrive:notes /home/mammadu/Documents/notes/ --drive-skip-gdocs --resilient --recover --max-lock 2m --conflict-resolve newer >> /home/mammadu/.rclone/logs/logfile 2>&1'
 
-### docker
-# alias docker='sudo docker'
+## zsh-syntax-highlighting
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
