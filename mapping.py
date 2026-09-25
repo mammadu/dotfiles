@@ -17,6 +17,7 @@ DOTFILE_MAP = {
     ".zshrc": f"ln -sf {repo_dir}/.zshrc ~/.zshrc",
     "crontab_backup": f"crontab {repo_dir}/crontab_backup",
     "kglobalshortcutsrc": f"cp {repo_dir}/kglobalshortcutsrc ~/.config/kglobalshortcutsrc",
+    "input-remapper-2": f"cp -r {repo_dir}/input-remapper-2/ ~/.config/input-remapper-2/"
 }
 
 
