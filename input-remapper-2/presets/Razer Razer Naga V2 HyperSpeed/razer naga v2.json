@@ -241,7 +241,7 @@
             }
         ],
         "target_uinput": "keyboard",
-        "output_symbol": "KEY_LEFTALT",
+        "output_symbol": "disable",
         "name": "alt",
         "mapping_type": "key_macro"
     }
