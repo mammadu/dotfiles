@@ -1,3 +1,6 @@
+# this is used to avoid duplicates in our path from repeated sourcing of the zshrc
+typeset -U path PATH
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -128,6 +131,10 @@ eval "$(mise activate zsh)"
 
 ## fzf
 source <(fzf --zsh)
+
+## golang
+export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 ## yay
 ### this line skips the clean, diff, and edit menus when updating with yay. It also doesn't exclude any application that can be upgraded
