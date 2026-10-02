@@ -135,10 +135,6 @@ alias yolo='yay --noconfirm'
 ### show the news if there is any. Only shows news that is newer than the latest package date
 alias news='yay --show --news'
 
-## xclip
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
-
 ## resetting monitor connection when it doesn't turn on for some reason
 alias resetmonitor='echo on-digital | sudo tee /sys/class/drm/card1-DP-1/status'
 
