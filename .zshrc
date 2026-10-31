@@ -143,7 +143,7 @@ alias yolo='yay --noconfirm'
 alias news='yay --show --news'
 
 ## resetting monitor connection when it doesn't turn on for some reason
-alias resetmonitor='echo on-digital | sudo tee /sys/class/drm/card1-DP-1/status'
+alias resetmonitor='echo detect | sudo tee /sys/class/drm/card*-DP-*/status'
 
 ## resetting the network device
 alias resetnet='sudo networkctl down enp0s25 && sudo networkctl up  enp0s25'
